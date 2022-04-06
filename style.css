@@ -1,0 +1,96 @@
+body, html{
+    margin: 0;
+}
+body{
+    background-color: #000000;
+}
+section{
+    background-color: #121214;
+    max-width: 70%;
+    margin: 0 auto;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 60px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;   
+}
+p{
+   display: flex; 
+   justify-content: center;
+}
+figure{
+    overflow: hidden;
+}
+.avatar{
+    width: 160px;
+    border-radius: 16px;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.avatar1{
+    width: 160px;
+    border-radius: 16px;
+    opacity: 0.5; 
+     
+}
+ul li p{
+    color: #9C9C9C;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;   
+}
+div{
+    display: flex;
+    justify-content: center
+}
+button{
+    margin: 60px 0 60px;
+    background-color: #121214;
+    color: white;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 210px;
+    height: 50px;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+}
+
+.avatar1:hover{
+    width: 160px;
+    border-radius: 16px;
+    opacity: 1;
+}
+.avatar:hover{
+    transform: scale(1.1);
+    transition: all 4s;
+	border-radius: 16px;
+}
+button:hover{
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color:#121214;
+}
